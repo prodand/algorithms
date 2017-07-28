@@ -1,0 +1,13 @@
+Imagine a elevator in a building with N floor. Elevator have weight capacity W and can accomodate up to K people.
+Queue of people is waiting at ground floor to be lifted on their floor. People amount is P.
+You have two arrays with weights of each person in the queue and desired floor number:
+M and V.
+
+Write algorithm which calculate how many stops elevator makes to deliver all people on their floor.
+After elevator lift one group of people it shold back to the ground floor to pick up next group of people and this stop also should be encountered.
+When last group is delivered it has to be back at ground floor.
+
+Input format
+<N> <P> <K> <W>
+<V[]>
+<M[]>

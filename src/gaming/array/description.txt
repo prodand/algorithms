@@ -1,0 +1,5 @@
+There is a game. You have an array of  distinct integers. The rules are as follows:
+ - Player Bob always plays first and the two players move in alternating turns.
+ - In a single move, a player chooses the maximum element currently present in the array and removes it as well as all the other elements to its right. For example, if A = [2, 3, 5, 4, 1], then it becomes A = [2,3] after the first move
+ - The modifications made to the array during each turn are permanent, so the next player continues the game with the remaining array. The first player who is unable to make a move loses the game.
+Print the winner
