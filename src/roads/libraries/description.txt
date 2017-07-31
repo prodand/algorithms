@@ -1,0 +1,27 @@
+The Ruler of HackerLand believes that every citizen of the country should have access to a library. Unfortunately, HackerLand was hit by a tornado that destroyed all of its libraries and obstructed its roads! As you are the greatest programmer of HackerLand, the ruler wants your help to repair the roads and build some new libraries efficiently.
+
+HackerLand has  cities numbered from  to . The cities are connected by  bidirectional roads. A citizen has access to a library if:
+
+Their city contains a library.
+They can travel by road from their city to a city containing a library.
+The following figure is a sample map of HackerLand where the dotted lines denote obstructed roads:
+
+image
+
+The cost of repairing any road is  dollars, and the cost to build a library in any city is  dollars.
+
+You are given  queries, where each query consists of a map of HackerLand and value of  and .
+
+For each query, find the minimum cost of making libraries accessible to all the citizens and print it on a new line.
+
+Input Format
+
+The first line contains a single integer, , denoting the number of queries. The subsequent lines describe each query in the following format:
+
+The first line contains four space-separated integers describing the respective values of  (the number of cities),  (the number of roads),
+(the cost to build a library), and  (the cost to repair a road).
+Each line  of the  subsequent lines contains two space-separated integers,  and , describing a bidirectional road connecting cities and.
+
+Output Format
+
+For each query, print an integer denoting the minimum cost of making libraries accessible to all the citizens on a new line.
